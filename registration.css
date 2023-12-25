@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: #333a56;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    box-shadow: 0px 0px 20px #070b1ba0;;
+    margin-top: 5%;
+    max-width: 460px; 
+    width: 100%;
+    display: inline-block;
+    border-radius: 8px;
+    background-color:#333a56;
+    height: 510px;
+}
+h2{
+    text-align: center;
+    color: rgb(231, 6, 6);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div {
+    padding-left: 20px;
+    padding-right:35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+input {
+    width: 100%; 
+    height: 35px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+label {
+    text-align: left;
+    color: white;
+    font-size: 15px;
+}
+#terms,a{
+    color: rgb(231, 6, 6);
+}
+
+input::placeholder {
+    color: rgb(6, 6, 6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+#terms {
+   width: 20px;
+  margin-top: -2%;
+    
+}
+
+#labelterms {
+    text-align: left;
+    vertical-align:top;
+}
+button{
+   background-color: rgb(231, 6, 6);
+   position: absolute;
+   left: 35%;
+   top:96%;
+   color: white;
+   border: none;
+   width: 35%;
+   height: 7%;
+   border-radius: 5px;
+   font-size: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+button:hover{
+    background-color: white;
+    color: rgb(231, 6, 6);
+}
